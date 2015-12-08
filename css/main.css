@@ -1,0 +1,246 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  height:1px;
+  background:#d1d1d1;
+}
+
+h1 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+  color: #555555;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin:  -5px 0;
+  font-weight: normal;
+  color: #555555;
+}
+
+h3{
+  margin: 0 0 1em 0;
+}
+
+h4{
+  color: #555555;
+  margin: 0 0 1em 0;
+}
+
+
+/**********************************
+HEADING
+***********************************/
+
+
+header{
+  float: right;
+  margin: 0 0 10% 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  height: 500px;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+header h1{
+  margin: 50px 0 0 0;
+}
+
+header h1 span {
+  background-color: white;
+  padding: 10px;
+  color: #0083af;
+ font-size: 2em;
+}
+
+
+header h2{
+  margin: 5% 0 0 0;
+}
+
+header h2 span{
+  background-color: #0083af;
+  padding: 10px;
+  color: white;
+  font-size: 1.5em;
+}
+
+header h2 span:hover{
+  background-color: black;
+}
+
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px;
+  margin: 0 0 0 0;
+  background-color: white;
+  opacity: 0.8;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  margin: 15px 0 15px 0;
+}
+
+nav a{
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon{
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+.social-icon:hover{
+ background-color: #0083af;
+}
+
+
+
+/**********************************
+PAGE: Home
+***********************************/
+
+
+#crew{
+  text-align: center;
+  padding: 50px;
+  margin: 0 0 0 0;
+}
+
+#crew h1{
+   margin: 10px 0 0 0;
+   font-size: 3.5em;
+}
+
+#crew h3{
+  margin: 25px 0 25px 0;
+  font-size: 1.85em;
+}
+
+#crew p{
+  margin: 10px 0 0 0;
+  color: #0083af;
+  font-size: 1.5em;
+}
+
+.list-crew{
+  text-align: center;
+}
+
+.list-crew #techie,#worship,#hey,#blitz,#home{
+  margin: 5% 0;
+}
+
+#primary-col{
+  text-align: center;
+  margin: 5% 0 0 0;
+}
+
+#primary-col #when h2, #primary-col #where h2{
+  font-size: 1.85em;
+}
+
+#secondary-col{
+  text-align: center;
+  margin: 5% 0 0 0;
+}
+
+
+
+
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background-image: url('../img/cover2.png');
+  border-color: #476063;
+}
+
+/* nav background on mobile */
+nav {
+  background-color: color|transparent|initial|inherit;
+}
+
+/* logo text */
+h1, h2 {
+  color: black;
+}
+
+/* links */
+a {
+  color: #0083af;
+}
+
+
+

@@ -1,0 +1,136 @@
+@media screen and (min-width: 545px){
+
+
+    #calendar #cal-list li{
+            width: 43%;
+            display: inline-block;
+          }
+
+
+
+}
+
+@media screen and (min-width: 680px){
+
+       header img{
+        height: 50px;
+        width: 50px;
+        float: left;
+        margin: 0 0 5% 5%;
+      }
+
+     nav {
+        text-align: right;
+        padding: 10px 10px 10px 0;
+        margin: 0 0 0 0;
+        background-color:  #0083af;
+      }
+
+    nav ul{
+      list-style-type: none;
+      margin: 0 5px;
+      padding: 0;
+    }
+
+    nav li{
+      display: inline-block;
+    }
+
+    nav a{
+      font-weight: 800;
+      padding: 15px 10px;
+      color: #fff;
+    }
+
+    /* nav link */
+    nav a, nav a:visited {
+      color: #fff;
+    }
+
+    /* selected nav link */
+    nav a.selected, nav a:hover {
+      color: #0083af;
+      background-color: white;
+    }
+
+
+    /**********************************
+    Calendar
+    ***********************************/
+      #calendar #cal-list{
+        list-style-type: none;
+      }
+
+      #calendar #cal-list li{
+        width: 48%;
+        display: inline-block;
+        height: 250px;
+        margin-top: 5%;
+      }    
+
+      #calendar a{
+        position: relative;
+      }
+
+    /**********************************
+    Hover Elements for Calendar, very inneficient
+    ***********************************/
+
+     #calendar .cal-description{
+        display: block;
+        transition: all .5s;
+        visibility: visible;
+        opacity: 0;
+        height: 150px;
+      }
+
+      #snac:hover .cal-description, #dunes:hover .cal-description, #senior:hover .cal-description, 
+      #fall-retreat:hover .cal-description, #marathon:hover .cal-description, #amore:hover .cal-description,
+      #spring-fling:hover .cal-description, #rainy-river:hover .cal-description, #south-dakota:hover .cal-description
+      {
+          display: block;
+          opacity: 1;
+          visibility: visible;
+          transition: all .5s;
+      }
+
+    /**********************************
+    Contact
+    ***********************************/
+
+      #primary{
+        width: 50%;
+        float: left;
+      }
+
+      #secondary{
+        width: 40%;
+        float: right;
+        margin-top: 150px;
+        text-align: left;
+      }
+
+      .contact-info a{
+        padding: 0 0 0 30px;
+      }
+
+      .contact-info li.phone a{
+        background-image: url('../img/phone.png');
+      }
+
+      .contact-info li.mail a{
+        background-image: url('../img/mail.png');
+      }
+
+      .contact-info li.twitter a{
+        background-image: url('../img/twitter.png');
+      }
+
+
+    /**********************************
+    Sponsors
+    ***********************************/
+
+}
+
+

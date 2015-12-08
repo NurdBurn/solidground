@@ -1,0 +1,264 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  height:1px;
+  background:#d1d1d1;
+  margin: 25px;
+}
+
+h1 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+  color: #555555;
+}
+
+h2 {
+  font-size: 0.75em;
+  font-weight: normal;
+  color: #555555;
+}
+
+h3{
+  margin: 0 0 1em 0;
+}
+
+h4{
+  color: #555555;
+  margin: 0 0 1em 0;
+}
+
+/**********************************
+Heading
+***********************************/
+
+header img{
+  height: 50px;
+  width: 50px;
+  margin: 0 0 0 0;
+}
+
+  nav {
+  text-align: center;
+  padding: 10px;
+  margin: 0 0 0 0;
+  background-color: #0083af;
+  opacity: 0.8;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 2%;
+}
+
+nav ul li{
+  margin: 5px 0 15px 0;
+}
+
+nav a{
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+  /* nav link */
+  nav a, nav a:visited {
+    color: #fff;
+  }
+
+
+  /* selected nav link */
+  nav a.selected{
+    color: #0083af;
+    background-color: white;
+  }
+
+/**********************************
+Page: Calendar
+***********************************/
+#calendar section{
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+
+.cal-p{
+ margin-top: 2%;
+text-align: center;
+ background-color: #bdc3c7;
+ color: #0083af;
+}
+
+#calendar a{
+  font-size: 1.75em;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  background: #0083af;
+}
+
+#calendar .inverse{
+  font-size: 1.75em;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  background: black;
+}
+
+#calendar #cal-list{
+  list-style-type: none;
+  text-align: center;
+  margin-right: 10%;
+}
+
+/**********************************
+Page: Info
+***********************************/
+ #wrapper .heading-info{
+  text-align: center;
+  font-size: 2.45em;
+  color: #0083af;
+ }
+
+
+ #wrapper .remind{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+#primary-col{
+  text-align: center;
+  margin: 5% 0 0 0;
+}
+
+#primary-col #when h2, #primary-col #where h2{
+  font-size: 1.85em;
+}
+
+/**********************************
+Page: Contact
+***********************************/
+
+.contact-info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+#primary{
+  text-align: center;
+}
+
+#secondary{
+  text-align: center;
+}
+
+#contact-pic{
+  
+}
+
+
+
+.contact-info a{
+  display: block;
+  min-height: 20px;
+  color: #0083af;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 0;
+  margin: 0 0 10px;
+}
+
+/**********************************
+Page: Sponsors
+***********************************/
+.spon-pic{
+   width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  background-position: center;
+}
+
+.sponsor-list li{
+        width: 30.3333%;
+        display: inline-block;
+        height: 250px;
+        margin-top: 5%;
+}
+
+.individual{
+  list-style-type: none;
+  margin-top: 5%;
+  perspective: 1000;
+}
+  
+.individual, .photo, .back{
+  width: 250px;
+}
+
+
+.photo{
+  text-align: center;
+  margin: 2%;
+  z-index: 2;
+}
+
+.back{
+  transform: rotateY(180deg);
+  
+}
+
+.photo h1{
+  color: #0083af;
+}
+
+
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon{
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  
+}
+
+.social-icon:hover{
+  background-color: #0083af;
+}
+

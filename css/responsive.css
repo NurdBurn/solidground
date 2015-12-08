@@ -1,0 +1,64 @@
+@media screen and (min-width: 480px){
+	
+	/**********************************
+	Two Column Layout
+	***********************************/
+	#primary{
+		width: 50%;
+		float: left;
+	}
+
+	#secondary{
+		width: 40%;
+		float: right;
+	}
+
+	/**********************************
+	Page: Home
+	***********************************/
+
+	header h1{
+	  margin: 200px 0 0 0;
+	}
+
+	nav {
+	  text-align: right;
+	  padding: 10px 10px 10px 0;
+	  margin: 25px 15px 0 0;
+	  background-color: transparent;
+	}
+
+	nav ul{
+	  list-style-type: none;
+	  margin: 0 5px;
+	  padding: 0;
+	}
+
+	nav li{
+	  display: inline-block;
+	}
+
+	nav a{
+	  font-weight: 800;
+	  padding: 15px 10px;
+	  color: #fff;
+	}
+
+	/* nav link */
+	nav a, nav a:visited {
+	  color: #fff;
+	}
+
+	/* selected nav link */
+	nav a.selected, nav a:hover {
+	  color: #0083af;
+	  background-color: white;
+	}
+
+	
+
+}
+
+@media screen and (min-width: 660px){
+
+}
