@@ -195,19 +195,16 @@ Page: Contact
 /**********************************
 Page: Sponsors
 ***********************************/
-.spon-pic{
-   width: 250px;
-  height: 250px;
-  border-radius: 150px;
-  background-position: center;
-}
-
 .sponsor-list li{
-        width: 30.3333%;
-        display: inline-block;
-        height: 250px;
-        margin-top: 5%;
+  display: inline;
+  width: 100%;
 }
+    .spon-pic{
+      width: 250px;
+      height: 250px;
+      border-radius: 150px;
+      background-position: center;
+    }
 
 .individual{
   list-style-type: none;
@@ -224,6 +221,10 @@ Page: Sponsors
   text-align: center;
   margin: 2%;
   z-index: 2;
+}
+
+.photo img{
+  width: 100%;
 }
 
 .back{
@@ -260,5 +261,10 @@ footer {
 
 .social-icon:hover{
   background-color: #0083af;
+}
+
+/* links */
+a {
+  color: #0083af;
 }
 

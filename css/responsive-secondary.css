@@ -5,10 +5,10 @@
             width: 43%;
             display: inline-block;
           }
-
-
-
+ 
 }
+
+
 
 @media screen and (min-width: 680px){
 
@@ -132,5 +132,22 @@
     ***********************************/
 
 }
+@media screen and (min-width: 500px){
+  .sponsor-list li{
+            width: 45%;
+            display: inline-block;
+            height: 250px;
+            margin-top: 5%;
+    }
+}
+@media screen and (min-width: 780px){
+  .sponsor-list li{
+            width: 30.3333%;
+            display: inline-block;
+            height: 250px;
+            margin-top: 5%;
+    }
+}
+
 
 
